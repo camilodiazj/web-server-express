@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const hbs = require('hbs');
 
-const port = process.env.POR || 3000;
+const port = process.env.PORT || 3000;
 
 require('./hbs/helpers');
 
